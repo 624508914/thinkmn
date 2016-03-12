@@ -1,0 +1,251 @@
+<table id="AdminGroup"></table>
+<script>
+$.Admin.Group = {
+    //组件ID
+    'id' : '#AdminGroup',
+    
+    //工具栏
+    'tools' : [
+        { text: '展开', iconCls: 'fa fa-folder-o', handler: function(){
+                $.Admin.Group.ExpandGroup();
+            } 
+        },
+        { text: '收缩', iconCls: 'fa fa-folder-open-o', handler: function(){
+                $.Admin.Group.CollapseGroup();
+            }
+        },
+        { text: '查看', iconCls: 'fa fa-search', handler: function(){
+                $.Admin.Group.ViewGroup();
+            } 
+        },
+        { text: '添加', iconCls: 'fa fa-plus', handler: function(){
+                $.Admin.Group.AddGroup();
+            } 
+        },
+        { text: '编辑', iconCls: 'fa fa-edit', handler: function(){
+                $.Admin.Group.EditGroup();
+            } 
+        },
+        { text: '删除', iconCls: 'fa fa-remove', handler: function(){
+                $.Admin.Group.DelGroup();
+            } 
+        },
+        { text: '排序', iconCls: 'fa fa-sort', handler: function(){
+                $.Admin.Group.SortGroup();
+            } 
+        }
+    ],
+
+    //展开角色
+    'ExpandGroup' : function(){
+        var get_select_row = $($.Admin.Group.id).treegrid('getSelected');
+        if(get_select_row == null){
+            $($.Admin.Group.id).treegrid('expandAll');
+        } else {
+            $($.Admin.Group.id).treegrid('expandAll',get_select_row.id);
+        }
+    },
+
+    //收缩角色
+    'CollapseGroup' : function(){
+        var get_select_row = $($.Admin.Group.id).treegrid('getSelected');
+        if(get_select_row == null){
+            $($.Admin.Group.id).treegrid('collapseAll');
+        } else {
+            $($.Admin.Group.id).treegrid('collapseAll',get_select_row.id);
+        }
+    },
+    
+    //查看角色
+    'ViewGroup' : function(){
+        var get_select_row = $($.Admin.Group.id).treegrid('getSelected');
+        if(get_select_row == null){
+            $.Admin.tips('温馨提示信息', '请先选择 您要查看的数据行','error');
+            return false;
+        }
+        var id = $.Admin.random_dialog();
+        $(id).dialog({
+            title: '查看角色',
+            iconCls: 'fa fa-search',
+            queryParams: {id: get_select_row.id},
+            href: '{:U("Group/viewGroup")}',
+            modal: true,
+            width: 500,
+            onClose : function(){
+                $(this).dialog("destroy");
+            },
+            onOpen : function(){
+                var top = $(this).offset().top-$(this).position().top;
+                $(this).dialog('resize',{
+                    top: (top/2)+'px'
+                });
+            }
+        });
+    },
+    
+    //添加角色
+    'AddGroup' : function(){
+        var data = {};
+        var getSelectedRow = $($.Admin.Group.id).treegrid('getSelected');
+        if(getSelectedRow != null){
+            data = {id:getSelectedRow.id};
+        }
+        var id = $.Admin.random_dialog();
+        $(id).dialog({
+            title: '添加角色',
+            iconCls: 'fa fa-plus',
+            queryParams: data,
+            href: '{:U("Group/addGroup")}',
+            modal: true,
+            width: 500,
+            onClose : function(){
+                $(this).dialog("destroy");
+            },
+            onOpen : function(){
+                var top = $(this).offset().top-$(this).position().top;
+                $(this).dialog('resize',{
+                    top: (top/2)+'px'
+                });
+            }
+        });
+    },
+    
+    //编辑角色
+    'EditGroup' : function(){
+        var data = {};
+        var getSelectedRow = $($.Admin.Group.id).treegrid('getSelected');
+        if(getSelectedRow == null){
+            $.Admin.tips('温馨提示信息', '请先选择 您要编辑的数据行','error');
+            return false;
+        }
+        data = {id:getSelectedRow.id};
+        var id = $.Admin.random_dialog();
+        $(id).dialog({
+            title: '编辑角色',
+            iconCls: 'fa fa-edit',
+            queryParams: data,
+            href: '{:U("Group/editGroup")}',
+            modal: true,
+            width: 500,
+            onClose : function(){
+                $(this).dialog("destroy");
+            },
+            onOpen : function(){
+                var top = $(this).offset().top-$(this).position().top;
+                $(this).dialog('resize',{
+                    top: (top/2)+'px'
+                });
+            }
+        });
+    },
+    
+    //删除角色
+    'DelGroup' : function(){
+        var data = {};
+        var get_select_row = $($.Admin.Group.id).treegrid('getSelected');
+        if(get_select_row == null){
+            $.Admin.tips('温馨提示信息', '请先选择 您要删除的数据行','error');
+            return false;
+        }
+        
+        data = {id:get_select_row.id};
+        $.messager.confirm('系统提示', '此次将删除该分类与其下所有子分类<br />请慎重考虑，是否继续？', function (res) {
+            if(res){
+                $.Admin.del_action('{:U("Group/DelGroup")}',data);
+            }
+        });
+    },
+    
+    //排序角色
+    'SortGroup' : function(){
+        var sort_list = $($.Admin.Group.id).parent().find(".sortbox-text").serialize();
+        var temp_sort_lsit = sort_list.split('&');
+        for(x in temp_sort_lsit){
+            var temp_sort = temp_sort_lsit[x].split('=');
+            if(temp_sort[1] == ''){
+                $.Admin.tips('温馨提示信息', 'ID：'+temp_sort[0].split('%5B')[1].split('%5D')[0]+' 的角色项排序值为空','error');
+                return false;
+            }
+        }
+        //ajax提交数据处理
+        $.ajax({
+            type: 'POST',
+            url: '{:U("Group/SortGroup")}',
+            data: sort_list,
+            dataType:"json",
+            beforeSend: function(){
+                $.messager.progress({text:'处理中，请稍候...'});
+            },
+            success: function(data){
+                if(!data.status){
+                    $.Admin.tips('失败提示信息', data.info,'error');
+                } else {
+                    $.Admin.tips('成功提示信息', data.info,'info');
+                    $.Admin.refresh_tabs();
+                }
+            },
+            error: function(data){
+                $.Admin.tips('错误提示信息', data.responseText,'error');
+            }
+        });
+    },
+    
+    //函数格式化
+    'formatter' : {
+        'status' : function(value,row,index){
+            if(parseInt(value)){
+                return "<span class='fa fa-check text-primary'></span>";
+            } else {
+                return "<span class='fa fa-remove text-danger'></span>";
+            }
+        },
+        'sort' : function(value,row,index){
+            return '<span class="textbox" style="margin:5px 0px;"><input type="text" name="sort['+row.id+']" class="textbox-text sortbox-text" style="text-align:center;color:#000;padding-top: 4px; padding-bottom: 4px;width:30px;" value="'+value+'" /></span>';
+        }
+    }
+}
+//Group Extends Admin End
+
+$($.Admin.Group.id).treegrid({
+    title: '{$Position}',
+    border: false,
+    toolbar: $.Admin.Group.tools,
+    fitColumns: true,
+    fit: true,
+    ctrlSelect: true,
+    singleSelect: false,
+    rownumbers: true,
+    animate: true,
+    idField: 'id',
+    treeField: 'title',
+    url: "{:U('Group/Manage')}",
+    columns:[[
+        {field:'ck',checkbox:true},    
+        {field:'id',title:'ID',align:'center'},
+        {field:'title',title:'名称',width:200},
+        {field:'status',title:'状态',align:'center',formatter:$.Admin.Group.formatter.status,width:80},
+        {field:'sort',title:'排序',align:'center',formatter:$.Admin.Group.formatter.sort,width:80}
+    ]],
+    onDblClickRow: function(row){
+        $.Admin.Group.ViewGroup();
+    },
+    onContextGroup: function(e,row){
+        e.preventDefault();//阻止浏览器捕获右键事件
+        $(this).treegrid("unselectAll"); //取消所有选中项
+        $(this).treegrid("select", row.id); //根据索引选中该行
+        $('#AdminGroup_menu').menu('show',{
+            left: e.pageX,
+            top: e.pageY
+        });
+    }
+});
+</script>
+<div id="AdminGroup_menu" class="easyui-menu" style="display:none;">
+    <div data-options="iconCls:'fa fa-folder-o'" onclick="$.Admin.Group.ExpandGroup()">展开</div>
+    <div data-options="iconCls:'fa fa-folder-open-o'" onclick="$.Admin.Group.CollapseGroup()">收缩</div>
+    <div data-options="iconCls:'fa fa-search'" onclick="$.Admin.Group.ViewGroup()">查看</div>
+    <div data-options="iconCls:'fa fa-plus'" onclick="$.Admin.Group.AddGroup()">添加</div>
+    <div data-options="iconCls:'fa fa-edit'" onclick="$.Admin.Group.EditGroup()">编辑</div>
+    <div data-options="iconCls:'fa fa-remove'" onclick="$.Admin.Group.DelGroup()">删除</div>
+    <div data-options="iconCls:'fa fa-sort'" onclick="$.Admin.Group.SortGroup()">排序</div>
+</div>

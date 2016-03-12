@@ -1,0 +1,68 @@
+<?php if (!defined('THINK_PATH')) exit();?><form action="<?php echo U('User/AddUser');?>" method="POST" class="table_form">
+    <table class="table_list">
+        <tr>
+            <th>登录名:</th>
+            <td width="150"><input type="text" name="username" class="easyui-textbox" data-options="required:true" style="width:100%;height:25px;" /></td>
+            <th>昵称:</th>
+            <td width="150"><input type="text" name="nickname" class="easyui-textbox" data-options="required:true" style="width:100%;height:25px;" /></td>
+        </tr>
+        <tr>
+            <th>密码:</th>
+            <td><input type="text" name="password" id="password" class="easyui-textbox" data-options="required:true" style="width:100%;height:25px;" /></td>
+            <th>确认密码:</th>
+            <td><input type="text" name="repassword" class="easyui-textbox" data-options="required:true,validType:['equals[\'#password\']']" style="width:100%;height:25px;" /></td>
+        </tr>
+        <tr>
+            <th>邮箱:</th>
+            <td><input type="text" name="email" class="easyui-textbox" data-options="required:true,validType:'email'" style="width:100%;height:25px;" /></td>
+            <th>QQ:</th>
+            <td><input type="text" name="qq" class="easyui-textbox" data-options="required:true" style="width:100%;height:25px;" /></td>
+        </tr>
+        <tr>
+            <th>手机号:</th>
+            <td><input type="text" name="mobile" class="easyui-textbox" data-options="required:true" style="width:100%;height:25px;" /></td>
+            <th>生日:</th>
+            <td><input type="text" name="birthday" class="easyui-datebox" data-options="required:true" style="width:100%;height:25px;" /></td>
+        </tr>
+        <tr>
+            <th>积分:</th>
+            <td><input type="text" name="score" class="easyui-textbox" data-options="required:true" style="width:100%;height:25px;" value="0" /></td>
+            <th>金币:</th>
+            <td><input type="text" name="gold" class="easyui-textbox" data-options="required:true" style="width:100%;height:25px;" value="0" /></td>
+        </tr>
+        <tr>
+            <th>性别:</th>
+            <td>
+                <select class="easyui-combobox" name="sex" data-options="editable:false" style="width:100%;height:25px;">
+                    <option value='0'>保密</option>
+                    <option value='1'>男</option>
+                    <option value='2'>女</option>
+                </select>
+            </td>
+            <th>状态:</th>
+            <td><label for="status_on"><input type="radio" id="status_on" name="status" value="1" checked /> 启用</label><label for="status_off"><input type="radio" id="status_off" name="status" value="0" /> 禁用</label></td>
+        </tr>
+        <tr>
+            <th>授权角色：</th>
+            <td colspan="3"><input type="text" name="group_id[]" class="easyui-combotree" data-options="url:'<?php echo U('Group/Manage');?>',queryParams:{combotree:true},required:true,multiple:true,cascadeCheck:false" style="width:100%;height:25px;" /></td>
+        </tr>
+        <tr>
+            <th>授权部门：</th>
+            <td colspan="3">
+                
+            </td>
+        </tr>
+        <tr>
+            <th>授权栏目：</th>
+            <td colspan="3">
+                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="button" value="添加" class="table_form_submit_dialog" style="float:right;margin-right:0px;" />
+                <button type="button" class="table_form_close_dialog" style="float:right;">取消</button>
+            </td>
+        </tr>
+    </table>
+</form>

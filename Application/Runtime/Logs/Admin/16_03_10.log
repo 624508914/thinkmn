@@ -1,0 +1,967 @@
+[ 2016-03-10T17:40:13+08:00 ] ::1 /thinkmn/Admin/Index/getSonMenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000894s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0044s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 10 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:40:13+08:00 ] ::1 /thinkmn/Admin/Index/getSonMenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0042s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 11 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:40:13+08:00 ] ::1 /thinkmn/Admin/Index/getSonMenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0033s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 26 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:40:13+08:00 ] ::1 /thinkmn/Admin/Index/getSonMenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0027s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0045s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 34 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:40:14+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html?_=1457602810742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0036s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-03-10T17:40:14+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+
+[ 2016-03-10T17:40:16+08:00 ] ::1 /thinkmn/Admin/User/Manage.html?_=1457602810743
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载控制器:User
+
+[ 2016-03-10T17:40:16+08:00 ] ::1 /thinkmn/Admin/Group/Manage.html?_=1457602810744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+ERR: 无法加载控制器:Group
+
+[ 2016-03-10T17:40:16+08:00 ] ::1 /thinkmn/Admin/Branch/Manage.html?_=1457602810745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载控制器:Branch
+
+[ 2016-03-10T17:40:17+08:00 ] ::1 /thinkmn/Admin/User/Manage.html?_=1457602810746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载控制器:User
+
+[ 2016-03-10T17:40:17+08:00 ] ::1 /thinkmn/Admin/Group/Manage.html?_=1457602810747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载控制器:Group
+
+[ 2016-03-10T17:40:18+08:00 ] ::1 /thinkmn/Admin/Branch/Manage.html?_=1457602810748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载控制器:Branch
+
+[ 2016-03-10T17:40:18+08:00 ] ::1 /thinkmn/Admin/Database/ImportDatabase.html?_=1457602810749
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:40:18+08:00 ] ::1 /thinkmn/Admin/Database/ExportDatabase.html?_=1457602810750
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:40:19+08:00 ] ::1 /thinkmn/Admin/Database/ImportDatabase.html?_=1457602810751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:42:47+08:00 ] ::1 /thinkmn/Admin/Database/ImportDatabase.html?_=1457602810753
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:42:47+08:00 ] ::1 /thinkmn/Admin/Branch/Manage.html?_=1457602810752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+ERR: 无法加载控制器:Branch
+
+[ 2016-03-10T17:42:47+08:00 ] ::1 /thinkmn/Admin/Database/ExportDatabase.html?_=1457602810754
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:42:48+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html?_=1457602810755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013780s ]
+
+[ 2016-03-10T17:42:48+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0222s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+
+[ 2016-03-10T17:42:49+08:00 ] ::1 /thinkmn/Admin/Branch/Manage.html?_=1457602810756
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载控制器:Branch
+
+[ 2016-03-10T17:42:49+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html?_=1457602810757
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-03-10T17:42:50+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0100s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 0 ORDER BY sort asc  [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:42:50+08:00 ] ::1 /thinkmn/Admin/Config/Manage.html?_=1457602810758
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载控制器:Config
+
+[ 2016-03-10T17:42:50+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html?_=1457602810759
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0034s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-03-10T17:42:51+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 0 ORDER BY sort asc  [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:42:51+08:00 ] ::1 /thinkmn/Admin/Config/Manage.html?_=1457602810760
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载控制器:Config
+
+[ 2016-03-10T17:42:51+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html?_=1457602810761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0035s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-03-10T17:42:51+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0039s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 0 ORDER BY sort asc  [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0035s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 58 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0043s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 10 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0032s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 77 ORDER BY sort asc  [ RunTime:0.0004s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002719s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 1 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0034s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 2 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0032s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 11 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0038s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 26 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0033s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 34 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0028s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 59 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 59 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-10T17:43:00+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 66 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:43:28+08:00 ] ::1 /thinkmn/Admin/Database/ExportDatabase.html?_=1457602810762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:43:29+08:00 ] ::1 /thinkmn/Admin/Database/ImportDatabase.html?_=1457602810763
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:43:30+08:00 ] ::1 /thinkmn/Admin/User/Manage.html?_=1457602810764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载控制器:User
+
+[ 2016-03-10T17:43:30+08:00 ] ::1 /thinkmn/Admin/Group/Manage.html?_=1457602810765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+ERR: 无法加载控制器:Group
+
+[ 2016-03-10T17:43:31+08:00 ] ::1 /thinkmn/Admin/Branch/Manage.html?_=1457602810766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载控制器:Branch
+
+[ 2016-03-10T17:44:51+08:00 ] ::1 /thinkmn/Admin/Group/Manage.html?_=1457602810767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载控制器:Group
+
+[ 2016-03-10T17:44:51+08:00 ] ::1 /thinkmn/Admin/User/Manage.html?_=1457602810768
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载控制器:User
+
+[ 2016-03-10T17:44:52+08:00 ] ::1 /thinkmn/Admin/Database/ImportDatabase.html?_=1457602810769
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:44:52+08:00 ] ::1 /thinkmn/Admin/Database/ExportDatabase.html?_=1457602810770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载控制器:Database
+
+[ 2016-03-10T17:44:52+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html?_=1457602810771
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0109s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-03-10T17:44:53+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0039s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 0 ORDER BY sort asc  [ RunTime:0.0002s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0252s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0037s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 1 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0032s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 58 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000493s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 10 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0038s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 77 ORDER BY sort asc  [ RunTime:0.0002s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 2 ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0033s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 11 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 26 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0051s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 34 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0046s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 59 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 59 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-10T17:44:54+08:00 ] ::1 /thinkmn/Admin/Menu/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `cms_member` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `cms_auth_group_access` [ RunTime:0.0037s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM cms_auth_group_access a INNER JOIN cms_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `name` = 'Menu/Manage' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `uid`,`username`,`nickname`,`sex`,`birthday`,`email`,`qq`,`mobile`,`score`,`gold`,`status`,`face`,`user_type`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time` FROM `cms_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT *,title as text FROM `cms_auth_rule` WHERE `pid` = 66 ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cms_auth_rule` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0001s ]
+

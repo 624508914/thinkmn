@@ -1,0 +1,44 @@
+<form action="javascript:void(0)" class="table_form">
+    <table class="table_list">
+        <tr>
+            <th>ID：</th>
+            <td width="100">{$result.id}</td>
+            <th>名称：</th>
+            <td width="100">{$result.title}</td>
+        </tr>
+        <tr>
+            <th>状态：</th>
+            <td><span class="<switch name='result.status'><case value='0'>fa fa-remove</case><case value='1'>fa fa-check</case></switch>"></span></td>
+            <th>路径：</th>
+            <td><input type="text" name="key" class="easyui-textbox" data-options="disabled:true" style="width:100%;height:25px;" value="{$result.name}" /></td>
+        </tr>
+        <tr>
+            <th>条件状态：</th>
+            <td><span class="<switch name='result.type'><case value='0'>fa fa-remove</case><case value='1'>fa fa-check</case></switch>"></span></td>
+            <th>条件：</th>
+            <td><input type="text" name="key" class="easyui-textbox" data-options="disabled:true" style="width:100%;height:25px;" value="{$result.condition}" /></td>
+        </tr>
+        <tr>
+            <th>排序：</th>
+            <td>{$result.sort}</td>
+            <th>图标：</th>
+            <td><span class="{$result.style}"></span></td>
+        </tr>
+        <tr>
+            <th>上级菜单：</th>
+            <td>{$result.rule_id|get_menu_info=###,'title'}</td>
+            <th>打开方式：</th>
+            <td>
+                <switch name='result.open_type'>
+                    <case value='0'>Ajax</case>
+                    <case value='1'>Iframe</case>
+                </switch>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <button type="button" class="table_form_close_dialog" style="float:right">关闭</button>
+            </td>
+        </tr>
+    </table>
+</form>
